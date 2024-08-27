@@ -39,6 +39,10 @@ Tasks are saved in a tasks.csv file with the following columns:
 - **description**: The task description.
 - **priority**: The task priority (high, medium, low).
 - **due_date**: The due date of the task in **YYYY-MM-DD** format.
+<p align="left">
+  <img src="https://cdn.discordapp.com/attachments/786936798898028584/1277832535933583371/e97e98eecdbfb22acd557c986578b2c9.png?ex=66ce99c9&is=66cd4849&hm=ec302f87fc629fb11111cca28e9c743c77a2c6d42175f4f3e5963d3274096202&" alt="CSV File Format Example">
+</p>
+
 
 ## Example
 ```bash
