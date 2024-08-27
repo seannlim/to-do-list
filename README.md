@@ -17,9 +17,7 @@ This is a simple command-line to-do list application that allows you to add, rem
 You can install the `tabulate` library using pip:
 
 ```bash
-{
 pip install tabulate
-}
 ```
 
 ## How to Use
