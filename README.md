@@ -39,3 +39,36 @@ Tasks are saved in a tasks.csv file with the following columns:
 - **description**: The task description.
 - **priority**: The task priority (high, medium, low).
 - **due_date**: The due date of the task in **YYYY-MM-DD** format.
+
+## Example
+```bash
+Sean's To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. List Tasks
+4. Exit
+Enter your choice: 1
+Enter task description: Finish project
+Enter priority (high, medium, low): high
+Enter due date (YYYY-MM-DD): 2024-08-30
+Task added successfully.
+
+Sean's To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. List Tasks
+4. Exit
+Enter your choice: 3
+
+Sean's Current To-Do List:
++------------------+----------+------------+
+| description      | priority | due_date   |
++------------------+----------+------------+
+| Finish project   | high     | 2024-08-30 |
++------------------+----------+------------+
+```
+
+## Notes 
+- The program validates the due date to ensure it is not in the past.
+- If the tasks.csv file does not exist, it will be created when you add tasks and exit the program.
+- The program does not allow duplicate descriptions for tasks.
