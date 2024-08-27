@@ -17,7 +17,7 @@ This is a simple command-line based to-do list program written in Python. The pr
 You can install the `tabulate` library using pip:
 
 ```bash
-pip install tabulate
+pip install tabulate```
 
 How to Use
 Clone the Repository: Download the code to your local machine.
