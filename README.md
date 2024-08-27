@@ -21,21 +21,21 @@ pip install tabulate
 ```
 
 ## How to Use
-1. Clone the Repository: Download the code to your local machine.
-2. Run the Program: Use the following command to start the program:
 
-bash
-Copy code
+**1. Clone the Repository**: Download the code to your local machine.
+**2. Run the Program**: Use the following command to start the program:
+```bash
 python to_do_list.py
-Main Menu Options:
-
+```
+**3.Main Menu Option**:
 1. Add Task: Enter the task description, priority (high, medium, low), and due date (YYYY-MM-DD format). The task will be added if the due date is valid and in the future.
 2. Remove Task: Enter the description of the task you want to remove.
 3. List Tasks: View all current tasks in a formatted table.
 4. Exit: Save all tasks to tasks.csv and exit the program.
-CSV File Format
+   
+## CSV File Format
 Tasks are saved in a tasks.csv file with the following columns:
 
-description: The task description.
-priority: The task priority (high, medium, low).
-due_date: The due date of the task in YYYY-MM-DD format.
+- **description**: The task description.
+- **priority**: The task priority (high, medium, low).
+- **due_date**: The due date of the task in **YYYY-MM-DD** format.
