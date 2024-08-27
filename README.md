@@ -42,6 +42,7 @@ Tasks are saved in a tasks.csv file with the following columns:
 
 ## Example
 ```bash
+
 Sean's To-Do List Menu:
 1. Add Task
 2. Remove Task
