@@ -21,9 +21,8 @@ pip install tabulate
 ```
 
 ## How to Use
-Clone the Repository: Download the code to your local machine.
-
-Run the Program: Use the following command to start the program:
+1. Clone the Repository: Download the code to your local machine.
+2. Run the Program: Use the following command to start the program:
 
 bash
 Copy code
