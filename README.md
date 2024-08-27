@@ -33,9 +33,3 @@ Main Menu Options:
 2. Remove Task: Enter the description of the task you want to remove.
 3. List Tasks: View all current tasks in a formatted table.
 4. Exit: Save all tasks to tasks.csv and exit the program.
-CSV File Format
-Tasks are saved in a tasks.csv file with the following columns:
-
-description: The task description.
-priority: The task priority (high, medium, low).
-due_date: The due date of the task in YYYY-MM-DD format.
